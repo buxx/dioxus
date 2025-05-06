@@ -4421,6 +4421,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-websocket-example"
+version = "0.0.0"
+dependencies = [
+ "axum 0.8.3",
+ "dioxus",
+ "dioxus-cli-config",
+ "tokio",
+]
+
+[[package]]
 name = "dioxus_server_macro"
 version = "0.6.3"
 dependencies = [
